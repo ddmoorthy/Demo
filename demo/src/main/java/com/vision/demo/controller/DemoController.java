@@ -16,7 +16,7 @@ public class DemoController {
 	
 	@RequestMapping(path="/method", method = RequestMethod.GET)
 	public String call() {
-		int returnStatus = demoService.serviceCall();
+		int returnStatus = demoService.serviceCall1();
 		return "call-"+returnStatus;
 	}
 	
