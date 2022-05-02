@@ -17,7 +17,7 @@ public class DemoController {
 	@RequestMapping(path="/method", method = RequestMethod.GET)
 	public String call() {
 		int returnStatus = demoService.serviceCall();
-		return "call-"+returnStatus;
+		return "Branch-"+returnStatus;
 	}
 	
 }
